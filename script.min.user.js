@@ -4,12 +4,7 @@
 // @version      2025-10-30
 // @description  try to take over the world!
 // @author       whAt-IS-NaMe-oF-Me
-// @match        https://oj.turingedu.cn/*
-// @match        https://soj.ac/problem*
-// @match        https://soj.ac/contest*
-// @match        https://soj.ac/submissions*
-// @match        https://soj.ac/ranklist*
-// @match        https://soj.ac/discussion*
+// @match        https://*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=soj.ac
 // @grant        none
 // ==/UserScript==
@@ -100,6 +95,7 @@ $(function () {
   }).then(p)))();
 
 });
+
 
 
 
