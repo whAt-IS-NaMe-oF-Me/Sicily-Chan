@@ -4,7 +4,7 @@
 // @version      2025-10-30
 // @description  try to take over the world!
 // @author       You
-// @match        https://oj.turingedu.cn/*
+// @match        https://*/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=soj.ac
 // @grant        none
 // ==/UserScript==
@@ -95,6 +95,7 @@ $(function () {
   }).then(p)))();
 
 });
+
 
 
 
