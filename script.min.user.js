@@ -64,7 +64,7 @@ $(function () {
               <div id="boxtop"></div>
               <div id="boxcnt">
                   <div>自定义内容：</div>
-                  <div style="text-align: center; ">参考这样换行！</div>
+                  <div style="text-align: center; ">参考这样换行与缩进！</div>
               </div>
               <div id="boxbottom"></div>
           </div>
@@ -95,6 +95,7 @@ $(function () {
   }).then(p)))();
 
 });
+
 
 
 
