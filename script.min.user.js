@@ -11,7 +11,7 @@
 
 var head = document.getElementsByTagName('head')[0];
 var csslink = document.createElement('link');
-csslink.href = 'https://what-is-name-of-me.github.io/Sicily-Chan/self/style.css';
+csslink.href = 'https://what-is-name-of-me.github.io/self/style.css';
 csslink.rel = 'stylesheet';
 csslink.type = 'text/css';
 head.appendChild(csslink);
@@ -95,6 +95,7 @@ $(function () {
   }).then(p)))();
 
 });
+
 
 
 
