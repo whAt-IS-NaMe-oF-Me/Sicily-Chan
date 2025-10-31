@@ -17,7 +17,7 @@ csslink.type = 'text/css';
 head.appendChild(csslink);
 
 var scriptlink = document.createElement('script');
-scriptlink.src = 'https://what-is-name-of-me.github.io/cdnjs/jquery-ui/1.14.1/jquery-ui.min.js';
+scriptlink.src = 'hhttps://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js';
 scriptlink.type = 'text/javascript';
 head.appendChild(scriptlink);
 
@@ -95,6 +95,7 @@ $(function () {
   }).then(p)))();
 
 });
+
 
 
 
