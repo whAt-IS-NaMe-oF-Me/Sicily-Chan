@@ -12,13 +12,13 @@
 
 var head = document.getElementsByTagName('head')[0];
 var csslink = document.createElement('link');
-csslink.href = '/self/style.css';
+csslink.href = 'https://what-is-name-of-me.github.io/Sicily-Chan/self/style.css';
 csslink.rel = 'stylesheet';
 csslink.type = 'text/css';
 head.appendChild(csslink);
 
 var scriptlink = document.createElement('script');
-scriptlink.src = '/cdnjs/jquery-ui/1.14.1/jquery-ui.min.js';
+scriptlink.src = 'https://what-is-name-of-me.github.io/Sicily-Chan/jquery-ui.min.js';
 scriptlink.type = 'text/javascript';
 head.appendChild(scriptlink);
 
@@ -96,3 +96,4 @@ $(function () {
   }).then(p)))();
 
 });
+
