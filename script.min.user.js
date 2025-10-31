@@ -12,13 +12,13 @@
 
 var head = document.getElementsByTagName('head')[0];
 var csslink = document.createElement('link');
-csslink.href = 'https://github.com/whAt-IS-NaMe-oF-Me/Sicily-Chan/raw/refs/heads/main/self/style.css';
+csslink.href = '/self/style.css';
 csslink.rel = 'stylesheet';
 csslink.type = 'text/css';
 head.appendChild(csslink);
 
 var scriptlink = document.createElement('script');
-scriptlink.src = 'https://github.com/whAt-IS-NaMe-oF-Me/Sicily-Chan/raw/refs/heads/main/cdnjs/jquery-ui/1.14.1/jquery-ui.min.js';
+scriptlink.src = '/cdnjs/jquery-ui/1.14.1/jquery-ui.min.js';
 scriptlink.type = 'text/javascript';
 head.appendChild(scriptlink);
 
@@ -94,4 +94,5 @@ $(function () {
           resolve();
       }, 100);
   }).then(p)))();
+
 });
