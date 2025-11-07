@@ -3,6 +3,7 @@
 // @namespace    https://github.com/what-is-name-of-me/what-is-name-of-me
 // @namespace    https://github.com/what-is-name-of-me/Sicily-Chan
 // @version      2025-11-7
+// @require      https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js
 // @description  try to take over the world!
 // @author       whAt-IS-NaMe-oF-Me
 // @match        https://*/*
@@ -15,11 +16,6 @@ csslink.href = 'https://what-is-name-of-me.github.io/self/style.css';
 csslink.rel = 'stylesheet';
 csslink.type = 'text/css';
 head.appendChild(csslink);
-
-var scriptlink = document.createElement('script');
-scriptlink.src = 'hhttps://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js';
-scriptlink.type = 'text/javascript';
-head.appendChild(scriptlink);
 
 var addUrlParam = function (url, key, val) {
   var newParam = encodeURIComponent(key) + '=' + encodeURIComponent(val);
@@ -97,15 +93,3 @@ $(function () {
     }).then(p)))();
   }
 });
-
-
-
-
-
-
-
-
-
-
-
-
