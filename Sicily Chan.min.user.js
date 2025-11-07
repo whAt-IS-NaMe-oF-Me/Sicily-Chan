@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         Sicly Chan
-// @namespace    http://tampermonkey.net/
-// @version      2025-10-30
+// @name         Sicily Chan
+// @namespace    https://github.com/what-is-name-of-me/what-is-name-of-me
+// @namespace    https://github.com/what-is-name-of-me/Sicily-Chan
+// @version      2025-11-7
 // @description  try to take over the world!
 // @author       whAt-IS-NaMe-oF-Me
 // @match        https://*/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=soj.ac
 // @grant        none
 // ==/UserScript==
 
@@ -95,6 +95,7 @@ $(function () {
   }).then(p)))();
 
 });
+
 
 
 
